@@ -1,5 +1,3 @@
-# PocketSphinx_Speech_Recognition
- PocketSphinx_Speech_Recognition
 # pyhton基于PocketSphinx实现简单语音识别
 
 ## 一、实现环境
