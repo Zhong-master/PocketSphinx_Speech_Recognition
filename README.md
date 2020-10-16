@@ -270,7 +270,7 @@ if __name__ == '__main__':
 - 找到 SpeechRecognition 安装位置，例如我的安装位置为：C:\Users\hp\AppData\Local\Programs\Python\Python37\Lib\site-packages\speech_recognition
 - 打开 pocketsphinx-data 文件夹，会发现里面有一个名为 en-US 的文件夹，这个文件夹就是 PocketSphinx 的识别库；
 - [CMU Sphinx](https://sourceforge.net/projects/cmusphinx/files/Acoustic%20and%20Language%20Models/) 打开此网站，找到 Mandarin 点进去并下载其中的压缩包并解压；
-- 在刚解压得到 “cmusphinx-zh-cn-5.2” 文件夹，在其中找到 zh_cn.dic 文件，以记事本打开，因为数据量比较大，所以打开的时候可能会卡顿一下。这个文件就是中文的对照表，一定要保存好；
+- 解压并得到 “cmusphinx-zh-cn-5.2” 文件夹，在其中找到 zh_cn.dic 文件，以记事本打开，因为数据量比较大，所以打开的时候可能会卡顿一下。这个文件就是中文的对照表，一定要保存好；
 - 在桌面新建一个文件夹，并在里面创建一个名为 command.txt 的文件，在文件中写下你想要定义的中文词汇，例如：
 
 ```txt
