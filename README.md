@@ -30,7 +30,6 @@
 4. 制作中文命令词库；
 5. 使用PocketSphinx进行简单的语音识别；
 
-依赖库：speech_recognition、pyaudio、numpy、scipy、wave；( 如果需要识别之后有电子语音回馈，还需要安装：playsound、pyttsx3 )
 
 注：其中第1、2两步代码来自 rocketeerLi 大神，此处附上 rocketeerLi 大神的 计算机视听实验 github 网址https://github.com/rocketeerli/Computer-VisionandAudio-Lab
 
