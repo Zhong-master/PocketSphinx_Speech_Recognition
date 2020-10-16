@@ -110,7 +110,7 @@ SpeechRecognition 库的具体用法可以参考以下文章：
 
 [Python实现语音识别：SpeechRecognition](https://blog.csdn.net/alice_tl/article/details/89684369?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522160286569219724838500666%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=160286569219724838500666&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_v2~rank_v28-1-89684369.pc_first_rank_v2_rank_v28&utm_term=SpeechRecognition%E6%94%AF%E6%8C%81%E7%9A%84&spm=1018.2118.3001.4187)
 
-注意：这里的识别表现出来的反应基本在 7s 左右，其实不是识别的速度慢，而是 pyttsx3 的语音回馈慢，自定义词的识别速度与您自定义词库的大小有关，一般自定义词库的识别速度在 1~2s 左右，当然，要想提高 pyttsx3  语音回馈的反应速度也有其他的解决方法，就是将您希望用到的回馈语音先保存下来，提取有效片段，在语音识别完成后利用 Playsound库进行播放也可以达到高速反应的目的，保存命令如下：
+注意：这里的识别表现出来的反应基本在 7s 左右，其实不是识别的速度慢，而是 pyttsx3 的语音回馈慢，自定义词的识别速度与您自定义词库的大小有关，一般自定义词库的识别速度在 1~2s 左右，当然，要想提高 pyttsx3  语音回馈的反应速度也有其他的解决方法，就是将您希望用到的回馈语音先保存下来，提取有效片段，在语音识别完成后利用 Playsound库进行播放也可以达到高速反应的目的；
 
 
 ## 至此，pyhton基于PocketSphinx实现简单语音识别项目结束
