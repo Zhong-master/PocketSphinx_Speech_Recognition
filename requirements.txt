@@ -1,0 +1,7 @@
+SpeechRecognition >= 3.8.1
+PyAudio >= 0.2.11
+Numpy >= 1.18.1
+Scipy >= 1.5.1
+wave >= 0.0.2
+playsound >= 1.2.2
+pyttsx3 >= 2.90
